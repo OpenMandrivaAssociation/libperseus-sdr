@@ -55,7 +55,9 @@ Summary:        Documentation for Perseus SDR
 Documentation for Perseus SDR
 
 %prep
-%autosetup
+%autosetup -p1
+
+sed -i 's!UNKNOWNx!%{version}!g' build-aux/git-version-gen
 #
 %build
 # Do not optimize for current cpu
