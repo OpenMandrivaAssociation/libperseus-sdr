@@ -1,6 +1,6 @@
 %define perseussdr_group perseususb
 %define major 0
-%define libname %mklibname perseus-sd %{major}
+%define libname %mklibname perseus-sdr %{major}
 %define devname %mklibname -d perseus-sdr
 
 Name:           libperseus-sdr
