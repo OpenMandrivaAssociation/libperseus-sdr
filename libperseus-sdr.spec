@@ -15,6 +15,7 @@ Source:         https://github.com/Microtelecom/%{name}/archive/%{version}/%{nam
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  git-core
+BuildRequires:  vim-common
 BuildRequires:  libtool
 BuildRequires:  pkgconfig(libusb)
 BuildRequires:  pkgconfig(udev)
