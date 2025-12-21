@@ -12,6 +12,8 @@ Group:          Productivity/Hamradio/Other
 URL:            https://github.com/Microtelecom/libperseus-sdr
 #Git-Clone:     https://github.com/Microtelecom/libperseus-sdr.git
 Source:         https://github.com/Microtelecom/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  git-core
